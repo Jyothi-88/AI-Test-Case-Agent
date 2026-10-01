@@ -65,34 +65,29 @@ The primary objectives of this framework are:
 ## 4. High-Level Workflow
 
 The planned workflow is:
+```text
 
 Requirement / User Story
-        |
-        v
+        ↓
 Requirement Analysis
-        |
-        v
+        ↓
 AI Test Case Generator
-        |
-        v
+        ↓
 Generated Test Cases
-        |
-        v
+        ↓
 AI Test Case Reviewer
-        |
-        v
+        ↓
 AI Evaluation
-        |
-        v
+        ↓
 Quality Metrics
-        |
-        v
+        ↓
 Pass / Fail Quality Gate
-        |
-        v
+        ↓
 Report / Feedback
         |
         +----> Improvement / Regeneration
+
+```
 
 The architecture will evolve incrementally as additional agentic
 capabilities are introduced.
